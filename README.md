@@ -22,10 +22,12 @@ Este proyecto es una aplicación Java que utiliza JavaFX para la interfaz de usu
 
 Asegúrate de tener MySQL instalado y ejecutándose. Crea una base de datos para tu proyecto. Por ejemplo, puedes llamarla `mydatabase`.
 
-Actualiza el archivo `src/main/resources/application.properties` con los detalles de tu base de datos:
-
-```properties
+# Configuración de la base de datos
 spring.datasource.url=jdbc:mysql://localhost:3306/mydatabase
 spring.datasource.username=yourusername
 spring.datasource.password=yourpassword
 spring.jpa.hibernate.ddl-auto=update
+
+## Tutoriales
+### Primeros pasos, Configura Spring Boot he instala JavaFX
+- <a href = "https://www.youtube.com/watch?v=KtCP-wzSTF0">JavaFX y SPRING BOOT 2024 Integración 🍃 Interfaz Grafica GUI IntelliJ IDEA 2024</a>
